@@ -423,10 +423,8 @@ color:#000000;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-top: 35px;
-    padding-left:65px;
-    padding-right: 50px;
-    padding-bottom: 10px;
+    padding: 20px 0;
+    padding-left: 40px;
 }
 
 
@@ -476,6 +474,47 @@ border-radius: 9px;
 border: none;
 }
 /* Header styles end */
+
+.banner-card {
+    position: relative;
+    margin-top: 80px;
+}
+.banner-card img {
+    max-width: 100%;
+    height: auto;
+    transform: scaleX(-1);
+}
+
+.banner-gradient{
+    background: linear-gradient(90deg,#000,hsla(0,0%,100%,0) 100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.banner-text{
+    position: absolute;
+    /* height: 400px; */
+    top: 20%;
+    color: #fff;
+    padding: 40px;
+    padding-right: 90px;
+    text-align: left;
+}
+
+.banner-text h4{
+    font-size: 46px;
+    max-width: 450px;
+
+}
+.banner-text p{
+    font-size: 24px;
+    max-width: 450px;
+    margin: 25px 0;
+}
+
+
 
 /* Intro styles start */
 
@@ -536,24 +575,24 @@ border: none;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.7);
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 5px;
     width: 350px;
-    height: 50px;
+    height: 40px;
     margin-right: 10px;
 }
 ::placeholder{
-font-size: 20px;
+font-size: 18px;
 line-height: 80px;
 color: rgba(0, 0, 0, 0.5);
 text-indent: 24px;
 
 }
 .search-button{
-    width: 50px;
-    height: 52px;
+    width: 40px;
+    height: 40px;
     /* background:url(../img/svg/Group\ 1.svg) no-repeat; */
     border:none;
-    border-radius: 8px;
+    border-radius: 5px;
     background-color: #94A1E8;
     text-align: center;
     justify-content: center;
@@ -677,10 +716,14 @@ text-indent: 24px;
 .active-events-content h4{
     text-align: left;
     max-width: 500px;
-    padding-left: 65px;
+    padding-left: 40px;
     font-size: 30px;
     line-height: normal;
     margin-bottom: 50px;
+}
+
+.active-events-cards .container{
+    padding-left: 40px;
 }
 
 .card{
